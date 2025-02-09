@@ -22,7 +22,7 @@ const ActivitiesSection = () => {
   ];
   const NTUIMServiceActivities = [
     {
-      organization: "NTU Information Management Service Activities",
+      organization: "Programming Education Service",
       positions: [
         {
           title: "Teaching Assistant, NTU IM Programming Design",
@@ -108,7 +108,7 @@ const ActivitiesSection = () => {
     <div className="h-px bg-gray-200 mb-6" />
     <div className="space-y-8">
     <p>I am passionate about <span className='font-bold'>creating a meaningful impact</span> in my community, particularly in the areas of <span className='font-bold'>leadership</span> and <span className='font-bold'>programming education</span> for Taiwanese students.
-My <span className='font-bold'>involvement in two organizations</span> highlights my leadership and contributions for the passion: Global Leadership Organization and NTU Information Management (NTU IM) Service Activities.
+My <span className='font-bold'>involvement in two kinds of activites</span> highlights my leadership and contributions for the passion: Global Leadership Organization and programming education services.
   </p>
       {GLOactivities.map((org, orgIndex) => (
         <div key={orgIndex} className="relative">
