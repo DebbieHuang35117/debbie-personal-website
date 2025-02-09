@@ -2,35 +2,10 @@
 "use client"
 import { motion } from 'framer-motion';
 
-interface ProjectPageProps {
-    params: {
-      slug: string;
-    };
-  }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+
+export default function ProjectPage() {
   // Example project data - you would have this for each project
-  const project = {
-    title: "Medical Diagnosis LLM",
-    unit: "Web Mining and Information Retrieval Lab",
-    period: "Jun. 2024 - Present",
-    summary: `Enhancing multidisciplinary medical diagnosis via LLM with RAG. Fine-tuning models to let LLMs assist doctors in diagnosing across various medical specialties.
-Making LLMs be accurate, adaptive to new information, and could branch out a wide range of insightful possibilities
-when diagnosing patients.`,
-    technologies: ["LLM", "RAG", "Medical AI", "Python"],
-    thumbnail: "/ntu-logo.png",
-    challenges: [
-      "Handling complex medical terminology",
-      "Ensuring high accuracy across specialties",
-      "Processing large medical datasets"
-    ],
-    keyFeatures: [
-      "Multi-specialty diagnosis support",
-      "Real-time medical reference integration",
-      "Adaptive learning capabilities"
-    ],
-    results: "Improved diagnosis accuracy by 35% across multiple medical specialties"
-  };
 
   return (
     <motion.div 

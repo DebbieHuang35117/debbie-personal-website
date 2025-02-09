@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+export default function ProjectPage() {
   // Example project data - you would have this for each project
   const project = {
     title: "Medical Diagnosis LLM",
