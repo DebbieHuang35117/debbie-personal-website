@@ -1,6 +1,5 @@
 // app/components/ProfileSection.tsx
 import Image from "next/image";
-import Link from 'next/link'
 
 export default function ProfileSection() {
 
@@ -26,14 +25,14 @@ export default function ProfileSection() {
         <div> {/* Change the size of space between each paragraph */}
         <h2 className="font-sans font-bold text-2xl">🌟 About Me</h2>
         <br />
-        <p className="font-sans text-base indent-8">
+        <div className="font-sans text-base indent-8">
           I am an Information Management major with a Computer Science minor at National Taiwan University, 
           combining technical expertise with leadership experience. Currently involved in cutting-edge projects 
           in <span className="font-bold">medical AI</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
           <p className="indent-8">As a <span className="font-bold">Business Development Director</span> at Global Leadership Organization and former <span className="font-bold">Academic Director</span> at 
           Google Development Student Club, my self-position mission is that <br /> <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>.</p>
-        </p>
+        </div>
         </div>
       </div>
 

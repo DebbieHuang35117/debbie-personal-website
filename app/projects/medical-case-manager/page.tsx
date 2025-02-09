@@ -66,7 +66,8 @@ After confirmation by the case manager, a caring response will be sent back to t
     <a href="https://taide.tw/index" 
      className="text-blue-600 hover:underline"
      target="_blank"
-     rel="noopener noreferrer">TAIDE</a> is a project led by Academia Sinica, aimed at developing a large language model (LLM) tailored to Taiwanese culture with expertise across various domains. Our team specifically focuses on the medical field.</p>
+     rel="noopener noreferrer">TAIDE</a> is a project led by Academia Sinica, aimed at developing a large language model (LLM) tailored to Taiwanese culture with expertise across various domains. Our team specifically focuses on the medical field.
+     </p>
      <p className='indent-8'>Figure 1 illustrates the system software module design architecture of our team. Starting from the top left, the user inputs a query through an interface such as Streamlit (represented as "text" in the figure). This input undergoes an embedding process (labeled as "embedding" in the figure). </p>
 
 <p className='indent-8'>Before this, the patient education data obtained from Taichung Veterans General Hospital is segmented into chunks (shown as "chunks" in the figure) and also processed into embeddings. These embeddings are stored in a database and later matched with the embedded user query through a retrieval process (labeled as "retrieval" in the figure) to extract relevant information from the patient education data.</p>

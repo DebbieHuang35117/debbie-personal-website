@@ -49,7 +49,7 @@ export default function ProjectsSection() {
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project) => (
           <Link 
-            href={project.url ? project.url : `/projects/${project.slug}`} 
+            href={`/projects/${project.slug}`} 
             key={project.slug}
             className="block group"
           >
