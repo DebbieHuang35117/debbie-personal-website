@@ -2,7 +2,13 @@
 "use client"
 import { motion } from 'framer-motion';
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+interface PageProps {
+    params: {
+      slug: string;
+    };
+  }
+
+export default function ProjectPage({ params }: Awaited<PageProps>) {
   // Example project data - you would have this for each project
   const project = {
     title: "Medical Diagnosis LLM",
