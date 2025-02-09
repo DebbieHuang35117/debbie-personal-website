@@ -9,12 +9,9 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [
+// Combine the base configs and your custom rules
+export default [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
-];
-
-// eslint.config.mjs
-export default eslintConfig [
   {
     rules: {
       "react/no-unescaped-entities": "off",
@@ -22,4 +19,3 @@ export default eslintConfig [
     }
   }
 ];
-
