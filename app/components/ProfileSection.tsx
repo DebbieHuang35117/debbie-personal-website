@@ -105,7 +105,7 @@ export default function ProfileSection() {
           </div>
           <br />
           <div>
-            <h4 className="font-medium mb-2">Areas of Expertise (click for relevant projects) </h4>
+            <h4 className="font-medium mb-2">Areas of Expertise{/*(click for relevant projects)*/}</h4>
             <div className="flex flex-wrap gap-2">
             {[
                 { skill: 'Deep Learning', slug: 'deep-learning' },
@@ -137,7 +137,7 @@ export default function ProfileSection() {
         <div className="space-y-3">
 
         <div>
-            <h4 className="font-medium mb-2">🪄 Soft Skills that I am confident about (click for relevant experiences) </h4>
+            <h4 className="font-medium mb-2">🪄 Soft Skills that I am confident about{/*(click for relevant experiences)*/}</h4>
             <div className="flex flex-wrap gap-2">
   {[
     { skill: 'Communication', slug: 'communication-skills' },

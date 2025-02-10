@@ -39,7 +39,7 @@ export default function ProjectsSection() {
     },
     {
       title: "GSAT Test Taker", 
-      period: "Apr. 2024 - Jun. 2024",
+      period: "Mar. 2024 - Jun. 2024",
       description: "Using deep learning approach to answer GSAT questions with dataset from previous years. The model is trained to predict the correct answer with high accuracy.",
       slug: "gsat-test-taker",
       slug_not_done: true,
@@ -73,7 +73,7 @@ export default function ProjectsSection() {
 
   return (
     <div className="w-full max-w-3xl font-sans">
-      <h2 className="text-2xl font-bold mb-6">Projects</h2>
+      <h2 className="text-2xl font-bold mb-6">Projects (CS-Related)</h2>
       <div className="h-px bg-gray-200 mb-6" />
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project) => (

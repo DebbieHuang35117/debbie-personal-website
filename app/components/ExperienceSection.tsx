@@ -162,7 +162,7 @@ My <span className='font-bold'>involvement in two kinds of activites</span> high
             ))}
           </div>
         </div>
-      ))},
+      ))}
       {NTUIMServiceActivities.map((org, orgIndex) => (
         <div key={orgIndex} className="relative">
           {/* Organization Name */}
