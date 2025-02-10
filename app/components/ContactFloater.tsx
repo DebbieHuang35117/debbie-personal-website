@@ -54,8 +54,8 @@ export default function ContactFloater() {
   
     return (
       <div className="fixed right-12 bottom-[240px] max-w-xs">
-        <div className="font-sans border border-gray-200 dark:border-gray-700 rounded-lg p-6 w-[340px] transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
-        <h2 className='text-xl'>Let's connect!</h2>
+        <div className="font-sans border border-gray-200 dark:border-gray-700 bg-gray-25 dark:bg-gray-800 rounded-lg p-6 w-[340px] transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
+        <h2 className='text-xl font-bold'>Let's connect!</h2>
         {facts.map((item, index) => (
           <div key={index} className="flex items-center gap-3 space-y-2">
             {item.emoji ? (

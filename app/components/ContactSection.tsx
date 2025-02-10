@@ -66,9 +66,9 @@ export default function ContactSection() {
           ))}
         </div>
 
-        {/* Contact Button */}
-        <div className="mt-8">
-          <a 
+        {/* Contact Button -- discard for now */}
+{/*        <div className="mt-8">
+         <a 
             href="mailto:debbiehuang35117@gmail.com"
             className="
               inline-block 
@@ -78,7 +78,7 @@ export default function ContactSection() {
               text-white 
               rounded-full 
               hover:bg-blue-700 
-              transition-colors 
+              transition-colors
               duration-300 
               shadow-md 
               hover:shadow-lg
@@ -87,6 +87,7 @@ export default function ContactSection() {
             Send me an Email
           </a>
         </div>
+*/}
       </div>
     </div>
   );

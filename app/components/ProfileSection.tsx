@@ -99,7 +99,7 @@ export default function ProfileSection() {
             <div>
                     <div className="flex flex-wrap gap-2 pl-4">
                         <p className="font-medium text-gray-600">👩🏻‍💻  I am especially proficient in C++ and Python ⚙️</p>
-                        -- due to my past experience of beingcourse TA, high school course instructor, camp instructor, data analysis projects, and most of my projects that would involve using the two languages.
+                        -- due to my past experience of being course TA, high school course instructor, camp instructor, data analysis projects, and most of my projects that would involve using the two languages.
                     </div>
                    </div>
           </div>

@@ -1,3 +1,4 @@
+import { url } from 'inspector';
 import React from 'react';
 
 const ActivitiesSection = () => {
@@ -45,14 +46,16 @@ const ActivitiesSection = () => {
       {
         title: "Teaching Assistant, Coding and Co-working Club",
         duration: "Mar. 2023 - Aug. 2024",
-        description: "",
-        tags: ["Python", "Project Management", "Teaching Material Preparation", "Web Crawling", "Data Analysis", "Chatbot Development"]
+        description: "We are a group of students who are passionate about making an impact on the innovation world via Python. We held weekly workshops and hackathons to help students learn Python and develop their projects.",
+        tags: ["Python", "Project Management", "Teaching Material Preparation", "Web Crawling", "Data Analysis", "Chatbot Development"], 
+        url: "https://www.ccclub.io/"
       }, 
       {
         title: "Teaching Assistant, Rural Python Education Program",
           duration: "Sep. 2022 - Nov. 2022",
           description: "Developed curriculum and taught Python programming to 50+ students in Yilan Junior High School and Shunan Junior High School.",
-          tags: ["Teaching", "Python", "Curriculum Development", "Design Thinking"]
+          tags: ["Teaching", "Python", "Curriculum Development", "Design Thinking"], 
+          url: "https://management.ntu.edu.tw/IM/news/detail/sn/1665"
       }
       ]
     }
@@ -98,7 +101,8 @@ const ActivitiesSection = () => {
       title: "Teaching Assistant, Coding and Co-working Club (Python)", 
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
-      tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
+      tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"], 
+      url: "https://www.ccclub.io/"
     }
   ];
 
@@ -114,9 +118,9 @@ My <span className='font-bold'>involvement in two kinds of activites</span> high
         <div key={orgIndex} className="relative">
           {/* Organization Name */}
           <h3 className="text-xl font-semibold text-gray-900 mb-4">
-            {org.organization} <a href='https://www.gloleadership.org/'className="hover:underline"
+          <a href='https://www.gloleadership.org/'className="hover:underline"
   target="_blank"
-  rel="noopener noreferrer">🔗</a>
+  rel="noopener noreferrer">{org.organization} 🔗</a>
           </h3>
           
           {/* Timeline */}
@@ -179,7 +183,7 @@ My <span className='font-bold'>involvement in two kinds of activites</span> high
                 <div className="bg-white rounded-lg p-5 shadow-sm border border-gray-100 ml-4">
                   <div className="flex justify-between items-start mb-2">
                     <h4 className="text-lg font-medium text-gray-900">
-                      {position.title}
+                      {position.url ? <a href={position.url} target="_blank" rel="noopener noreferrer" className="hover:underline">{position.title} 🔗</a> : position.title}
                     </h4>
                     <span className="text-sm text-gray-600">
                       {position.duration}

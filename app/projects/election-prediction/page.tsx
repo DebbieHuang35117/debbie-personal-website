@@ -15,7 +15,7 @@ export default function ProjectPage() {
     >
       {/* Hero Section */}
       <h1> Please directly go the the following webpage: </h1>
-      <h1><a href='https://drive.google.com/file/d/1zB6CFNv4Bi_FpBc5mIVUM4I0Uo42GFYU/view?usp=sharing'className="hover:underline"
+      <h1><a href='https://www.dropbox.com/scl/fi/wgk1vkm7c2dnhyrju7rec/.pdf?rlkey=h4x0sl2n7uljtlqzll731acub&st=n6bfr9h6&dl=0'className="hover:underline"
   target="_blank"
   rel="noopener noreferrer">Link to the page 🔗</a></h1>
 
