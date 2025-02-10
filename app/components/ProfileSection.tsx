@@ -23,7 +23,7 @@ export default function ProfileSection() {
             priority
         />
         <div> {/* Change the size of space between each paragraph */}
-        <h2 className="font-sans font-bold text-2xl">🌟 About Me</h2>
+        <h2 className="font-sans font-bold text-2xl">About Me</h2>
         <br />
         <div className="font-sans text-base indent-8">
           I am an Information Management major with a Computer Science minor at National Taiwan University, 

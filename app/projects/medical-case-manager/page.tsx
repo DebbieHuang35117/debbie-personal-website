@@ -85,7 +85,7 @@ After confirmation by the case manager, a caring response will be sent back to t
         alt="Project Picture"
         width={800}
         height={400}
-        />
+        /> <br />
         <p className="text-center text-gray-500 mt-2">Figure 1: The flowchart to the design</p>
     </div>
 
