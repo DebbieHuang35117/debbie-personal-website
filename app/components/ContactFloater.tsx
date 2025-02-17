@@ -40,20 +40,20 @@ export default function ContactFloater() {
       // Add more personal facts
     ];
 
-    const [, setCopiedFact] = useState<string | null>(null);
+    const [copiedFacts, setCopiedFact] = useState<{[key: string]: Boolean}>({});
 
     const handleCopy = async (text: string) => {
       try {
         await navigator.clipboard.writeText(text);
-        setCopiedFact(text);
-        setTimeout(() => setCopiedFact(null), 2000); // Reset after 2s
+        setCopiedFact((prev) => ({ ...prev, [text]: true }));
+        setTimeout(() => setCopiedFact((prev) => ({ ...prev, [text]: false })), 800); // Reset after 2s
       } catch (err) {
         console.error("Failed to copy:", err);
       }
     };
   
     return (
-      <div className="fixed right-12 bottom-[240px] max-w-xs">
+      <div className="fixed right-12 bottom-[240px] max-w-xs z-50">
         <div className="font-sans border border-gray-200 dark:border-gray-700 bg-gray-25 dark:bg-gray-800 rounded-lg p-6 w-[340px] transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
         <h2 className='text-xl font-bold'>Let's connect!</h2>
         {facts.map((item, index) => (
@@ -87,13 +87,11 @@ export default function ContactFloater() {
                 className="ml-0.5 p-1 hover:text-gray-500 relative"
               >
                 <Copy size={18} />
-                {/* copiedFact ? (
+                { copiedFacts[item.copyItem ? item.copyItem : item.fact] && (
                     <span className="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-gray-800 text-white text-xs px-2 py-1 rounded-md transition-opacity duration-300">
                         Copied!
                     </span>
-                ) : (
-                    <Copy size={18} />
-                )*/}
+                )}
               </button>
             )}
           </div>
