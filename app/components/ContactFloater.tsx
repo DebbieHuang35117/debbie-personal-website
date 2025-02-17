@@ -40,7 +40,7 @@ export default function ContactFloater() {
       // Add more personal facts
     ];
 
-    const [copiedFacts, setCopiedFact] = useState<{[key: string]: Boolean}>({});
+    const [copiedFacts, setCopiedFact] = useState<{[key: string]: boolean}>({});
 
     const handleCopy = async (text: string) => {
       try {
