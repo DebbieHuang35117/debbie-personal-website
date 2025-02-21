@@ -9,7 +9,7 @@ const ActivitiesSection = () => {
         {
           title: "Business Development Director",
           duration: "Feb. 2025 - Present",
-          description: "Established partnerships with over 20 sponsors. Developed new revenue streams through innovative program offerings.",
+          description: "Established partnerships with over 20 sponsors. Developed new revenue streams through innovative program offerings. Also led the Student Ambassador team of 10 people.",
           tags: ["Partnership Development", "Team Leadership", "Business Strategy", "Negotiation"]
         }, 
         {
@@ -21,7 +21,7 @@ const ActivitiesSection = () => {
       ]
     }
   ];
-  const NTUIMServiceActivities = [
+  const ProgrammingServiceActivities = [
     {
       organization: "Programming Education Service",
       positions: [
@@ -32,7 +32,7 @@ const ActivitiesSection = () => {
           tags: ["Test Case Design", "Homework", "Project Grading", "C++", "Project Management"]
         }, 
         {
-          title: "Python Leading Lecturer, NTU IM Training Camp", 
+          title: "Python Leading Instructor, NTU IM Programming Camp", 
           duration: "Apr. 2023 - Jan. 2024",
           description: "Teach Python programming to 100+ students attedning NTU Information Management Programming Bootcamp, focusing on data analysis and visualization.",
           tags: ["Python", "Lecturing", "Teaching Material Preparation", "Data Analysis", "Data Visualization"]
@@ -43,6 +43,14 @@ const ActivitiesSection = () => {
           description: "Developed curriculum and taught Python programming to 50+ students in Yilan Junior High School and Shunan Junior High School.",
           tags: ["Teaching", "Python", "Curriculum Development", "Design Thinking"]
         },
+        {
+          title: "Academic Director, Google Student Development Club",
+          duration: "Sep. 2023 - Jun. 2024",
+          description: "Led the club to organize various events and workshops to help students learn more about Google technologies and develop their projects.",
+          tags: ["Event Organization", "Workshop Organization", "Project Management", "Google Technologies"],
+          url: "https://gdg.community.dev/gdg-on-campus-national-taiwan-university-taipei-taiwan/"
+  
+        },
       {
         title: "Teaching Assistant, Coding and Co-working Club",
         duration: "Mar. 2023 - Aug. 2024",
@@ -50,6 +58,7 @@ const ActivitiesSection = () => {
         tags: ["Python", "Project Management", "Teaching Material Preparation", "Web Crawling", "Data Analysis", "Chatbot Development"], 
         url: "https://www.ccclub.io/"
       }, 
+      
       {
         title: "Teaching Assistant, Rural Python Education Program",
           duration: "Sep. 2022 - Nov. 2022",
@@ -62,31 +71,31 @@ const ActivitiesSection = () => {
   ];
   const activities = [
     {
-      title: "Business Development Director, GLO",
-      duration: "Feb. 2025 - Present",
+      title: "Taiwan Representative, Asia Elite Business Scholars (at National University of Singapore)",
+      duration: "Jan. 2025",
       description: "Leading digital transformation initiatives across student organizations. Implemented new event management system that increased student participation by 40%.",
       tags: ["Leadership", "Project Management", "Partnership Development"]
     }, 
     {
-      title: "Marketing Strategy Director, GLO",
+      title: "Popularity Award Blockchain Reimagined, Global Initiatives Symposium in Taiwan (GIS 2022)",
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
     },
     {
-      title: "Academica Director, Google Student Development Club", 
+      title: "1st Place, NTU English Debate Society Summer Trial", 
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
     },
     {
-      title: "Lead Instructor, NTUIM Programming Bootcamp", 
+      title: "", 
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
     },
     {
-      title: "Lead Instructor, Rural Python Education Program", 
+      title: "", 
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
@@ -98,7 +107,7 @@ const ActivitiesSection = () => {
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"]
     }, 
     {
-      title: "Teaching Assistant, Coding and Co-working Club (Python)", 
+      title: "", 
       duration: "Sept. 2024 - Jan. 2025",
       description: "Led social media strategy and content creation, increasing engagement by 40%.",
       tags: ["Marketing Strategy", "Content Creation", "Social Media", "Digital Strategy"], 
@@ -163,7 +172,7 @@ My <span className='font-bold'>involvement in two kinds of activites</span> high
           </div>
         </div>
       ))}
-      {NTUIMServiceActivities.map((org, orgIndex) => (
+      {ProgrammingServiceActivities.map((org, orgIndex) => (
         <div key={orgIndex} className="relative">
           {/* Organization Name */}
           <h3 className="text-xl font-semibold text-gray-900 mb-4">

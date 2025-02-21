@@ -26,12 +26,13 @@ const FunFacts = () => {
 
   return (
     <div className="right-12 top-40 max-w-xs font-sans">
-      <h2 className="text-mono text-xl font-bold">Fun facts about me</h2>
+      <div className="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg transition-all duration-300 hover:shadow-lg">
+      <h2 className="text-mono text-l font-bold">Fun facts about me</h2>
         {facts.map((fact, index) => (
           <div key={index} className="flex gap-3 items-start group hover:bg-gray-50 p-1 rounded-lg transition-colors">
             <span className="text-2xl">{fact.icon}</span>
             <div>
-              <h3 className="font-medium text-gray-900">
+              <h3 className="font-medium text-sm text-gray-900">
                 {fact.title}
               </h3>
               <p className="text-gray-600 text-sm">
@@ -40,6 +41,8 @@ const FunFacts = () => {
             </div>
           </div>
         ))}
+      
+        </div>
 
     </div>
   );

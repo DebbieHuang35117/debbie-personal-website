@@ -9,11 +9,11 @@ export default function ProfileSection() {
         { src: "/Debbie Huang.jpg", alt: "Activity photo" }
       ];
   return (
-    <div className="font-sans flex flex-col items-center gap-8 max-w-3xl">
+    <div className="font-sans flex flex-col gap-8 max-w-3xl">
       
       {/* Bio Section */}
-      <div className="flex items-center gap-6 p-0.5 rounded-lg mt-1">
-
+      <div className="items-center gap-6 bg-teal-50 dark:bg-gray-800 p-4 rounded-lg">
+      <div className="flex items-center gap-6 p-0.5 rounded-lg mb-3">
         <Image
             className="rounded-full object-cover"
             src="/Debbie Huang.jpg"
@@ -23,7 +23,7 @@ export default function ProfileSection() {
             priority
         />
         <div> {/* Change the size of space between each paragraph */}
-        <h2 className="font-sans font-bold text-2xl">About Me</h2>
+        
         <br />
         <div className="font-sans text-base indent-8">
           I am an Information Management major with a Computer Science minor at National Taiwan University, 
@@ -31,14 +31,17 @@ export default function ProfileSection() {
           in <span className="font-bold">medical AI</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
           <p className="indent-8">As a <span className="font-bold">Business Development Director</span> at Global Leadership Organization and former <span className="font-bold">Academic Director</span> at 
-          Google Development Student Club, my self-position mission is that <br /> <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>.</p>
+          Google Development Student Club, my self-position mission is that <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>.</p>
         </div>
         </div>
+        
+      </div>
       </div>
 
       {/* Education */}
       <div className="w-full">
         <h3 className="font-semibold text-2xl mb-3">Education</h3>
+        <div className="h-px bg-gray-200 mb-6" />
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
           <Image
             src="/ntu-logo.png"  // Make sure to place your NTU logo in the public folder
@@ -48,12 +51,26 @@ export default function ProfileSection() {
             className="object-contain"
           />
           <div>
-            <p className="font-medium">BS in National Taiwan University</p>
+            <p className="font-medium">B.S. in National Taiwan University</p>
             <p className="text-gray-600">Information Management Major, Computer Science Minor<br /> Enrolled in Intelligence Medicine Program</p>
             <p className="text-sm text-gray-500">Academic Ranking 1st Place in 2022</p>
           </div>
         </div>
-       {/* <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
+        <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
+          <Image
+            src="/hgsh-logo.png"  // Make sure to place your NTU logo in the public folder
+            alt="Hsinchu Girls' Senior High School Logo"
+            width={75}
+            height={75}
+            className="object-contain"
+          />
+          <div>
+            <p className="font-medium">National Hsinchu Girls' Senior High School</p>
+            <p className="text-gray-600">Language Talented Class, Science & Engineering Major</p>
+            {<p className="text-sm text-gray-500">Senior High School Student</p>}
+          </div>
+        </div>
+       {/*<div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
         <Image
             src="/hku-logo.png"  // Make sure to place your NTU logo in the public folder
             alt="The University of Hong Kong Logo"
@@ -137,7 +154,7 @@ export default function ProfileSection() {
         <div className="space-y-3">
 
         <div>
-            <h4 className="font-medium mb-2">🪄 Soft Skills that I am confident about{/*(click for relevant experiences)*/}</h4>
+            <h4 className="font-medium mb-2">🪄 Soft Skills that I am Confident About{/*(click for relevant experiences)*/}</h4>
             <div className="flex flex-wrap gap-2">
   {[
     { skill: 'Communication', slug: 'communication-skills' },
