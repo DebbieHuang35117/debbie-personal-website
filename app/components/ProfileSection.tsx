@@ -12,7 +12,7 @@ export default function ProfileSection() {
     <div className="font-sans flex flex-col gap-8 max-w-3xl">
       
       {/* Bio Section */}
-      <div className="items-center gap-6 bg-teal-50 dark:bg-gray-800 p-4 rounded-lg">
+      <div className="items-center gap-6 dark:bg-gray-800 p-4 rounded-lg">
       <div className="flex items-center gap-6 p-0.5 rounded-lg mb-3">
         <Image
             className="rounded-full object-cover"
@@ -137,7 +137,7 @@ export default function ProfileSection() {
             ].map(({ skill, slug }) => (
                 <div 
                 key={skill} 
-                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+                className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm"
                 >
                 {skill}
                 </div>
@@ -168,7 +168,7 @@ export default function ProfileSection() {
   ].map(({ skill, slug }) => (
     <div 
       key={skill} 
-      className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+      className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm"
     >
       {skill}
     </div>
