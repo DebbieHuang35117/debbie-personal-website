@@ -25,7 +25,7 @@ export default function ProjectsSection() {
       period: "Feb. 2024 - Present",
       description: "Modeling and implementing optimization algorithms for production planning in aluminum doors and windows manufacturing.",
       slug: "scenic-ai-manufacturing",
-      github: "https://github.com/2024-ntuim-project/or-prototype",
+      github: "https://github.com/DebbieHuang35117/aluminum-manufacturing-production-scheduling",
       tags: ["Optimization", "Manufacturing", "AI"]
     },
     {
@@ -38,12 +38,20 @@ export default function ProjectsSection() {
       tags: ["Mobile App", "React Native", "Next.js", "Supabase", "Expo"]
     },
     {
+      title: "Shopping Basket Recommendation Analysis", 
+      period: "Apr. 2024 - Jun. 2024",
+      description: "Analyzing shopping basket data to provide recommendations for customers. The project involves data analysis, visualization, and machine learning techniques.",
+      slug: "shopping-basket-recommendation-analysis",
+      slug_not_done: true,
+      tags: ["Data Analysis", "Python", "Pandas", "Matplotlib"]
+    },
+    {
       title: "GSAT Test Taker", 
       period: "Mar. 2024 - Jun. 2024",
       description: "Using deep learning approach to answer GSAT questions with dataset from previous years. The model is trained to predict the correct answer with high accuracy.",
       slug: "gsat-test-taker",
       slug_not_done: true,
-      github: "https://github.com/namwoam/dl-final",
+      github: "https://github.com/DebbieHuang35117/GSAT-test-taker.git",
       tags: ["Deep Learning", "NLP", "Python", "TensorFlow"]
     },
     {
