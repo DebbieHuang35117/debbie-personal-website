@@ -56,6 +56,20 @@ export default function ProfileSection() {
             <p className="text-sm text-gray-500">Academic Ranking 1st Place in 2022</p>
           </div>
         </div>
+        {<div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
+        <Image
+            src="/hku-logo.png"  // Make sure to place your NTU logo in the public folder
+            alt="The University of Hong Kong Logo"
+            width={75}
+            height={75}
+            className="object-contain"
+          />
+          <div>
+            <p className="font-medium">The University of Hong Kong</p>
+            <p className="text-gray-600">Exchange Student Program</p>
+            <p className="text-sm text-gray-500"></p>
+          </div>
+        </div>}
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
           <Image
             src="/hgsh-logo.png"  // Make sure to place your NTU logo in the public folder
@@ -70,20 +84,7 @@ export default function ProfileSection() {
             {<p className="text-sm text-gray-500">Senior High School Student</p>}
           </div>
         </div>
-       {<div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
-        <Image
-            src="/hku-logo.png"  // Make sure to place your NTU logo in the public folder
-            alt="The University of Hong Kong Logo"
-            width={75}
-            height={75}
-            className="object-contain"
-          />
-          <div>
-            <p className="font-medium">The University of Hong Kong</p>
-            <p className="text-gray-600">Exchange Student Program</p>
-            <p className="text-sm text-gray-500">GPA: ? / 4.0</p>
-          </div>
-        </div>}
+      
       </div>
 
       {/* Technical Skills */}
