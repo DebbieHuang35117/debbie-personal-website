@@ -71,6 +71,12 @@ const ActivitiesSection = () => {
   ];
   const activities = [
     {
+      title: "Research Assistant, FinDA Lab",
+      duration: "Mar. 2025 - Present",
+      description: "",
+      tags: []
+    },
+    {
       title: "Taiwan Representative, Asia Elite Business Scholars (at National University of Singapore)",
       duration: "Jan. 2025",
       description: "Leading digital transformation initiatives across student organizations. Implemented new event management system that increased student participation by 40%.",

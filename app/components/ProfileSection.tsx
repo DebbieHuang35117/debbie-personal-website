@@ -70,7 +70,7 @@ export default function ProfileSection() {
             {<p className="text-sm text-gray-500">Senior High School Student</p>}
           </div>
         </div>
-       {/*<div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
+       {<div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
         <Image
             src="/hku-logo.png"  // Make sure to place your NTU logo in the public folder
             alt="The University of Hong Kong Logo"
@@ -83,7 +83,7 @@ export default function ProfileSection() {
             <p className="text-gray-600">Exchange Student Program</p>
             <p className="text-sm text-gray-500">GPA: ? / 4.0</p>
           </div>
-        </div>*/}
+        </div>}
       </div>
 
       {/* Technical Skills */}

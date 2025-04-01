@@ -1,0 +1,20 @@
+Add icons to extracurricular activites organizations
+Change header part
+Finish the detailed part of data
+Clone GitHub projects to my own respository
+Add my resume onto the website
+量化 achievement
+中文版 resume
+focus on the "impact" not only "what you did"
+凸顯 DEI
+Add:
+    \resumePOR{Book Club Member } % Position
+        {in Autonomous Deep Learning Study Group} %Club,Event
+        {Jul. 2024 - Present} %Tenure Period
+Could include: 
+    \resumePOR{Team Leader in Course Projects, } % Award
+        {including Programming for Business and Data Structures} % Event
+        {2022 - 2023} %Event Year
+
+
+Add RA in Academia Sinica Research Center for Information Technology Innovation

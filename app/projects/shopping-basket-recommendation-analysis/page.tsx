@@ -6,16 +6,10 @@ import { motion } from 'framer-motion';
 export default function ProjectPage() {
   // Example project data - you would have this for each project
   const project = {
-    title: "Medical Case Manager Large Language Model",
-    unit: "Academia Sinica Research Assistant",
-    period: "July 2024 - Jan. 2025",
-    introduction: `Leverages TAIDE’s multi-turn question-answering capabilities, providing 7-11, 24-hour services.
-Use Cases:
-Patients can ask questions to the Case Manager Twin at any time and engage in multi-turn conversations.
-Conversation logs will be processed by TAIDE to generate summary reports for the corresponding case manager.
-After confirmation by the case manager, a caring response will be sent back to the patient, providing reassurance and peace of mind.
-`,
-    technologies: ["LLM", "RAG", "Medical AI", "Python", "TAIDE", "Medical Terminology", "Medical Dataset"],
+    title: "Shopping Basket Recommendation Analysis",
+    unit: "A Study on Shopping Basket Recommendation Analysis to Increase Average Order Value, Big Data and Business Analytics",
+    introduction: `The project aims to increase the average order value of an e-commerce platform by recommending products that are frequently bought together. The project uses the Apriori algorithm to analyze the shopping basket data and generate recommendations.`,
+    technologies: ["Python", "Pandas", "Matplotlib", "Apriori Algorithm"],
     thumbnail: "/ntu-logo.png",
     challenges: [
         "Acquiring and processing large medical data",
@@ -44,9 +38,9 @@ After confirmation by the case manager, a caring response will be sent back to t
           className="text-4xl font-bold mb-4"
         >
           {project.title} <br />
-          <p className='text-2xl mt-4'>{project.unit}</p>
+          <p className='text-xl mt-4 text-gray-500'>{project.unit}</p>
         </motion.h1>
-        <p className="text-gray-600 text-lg mb-4">{project.period}</p>
+       
         <div className="flex flex-wrap gap-2">
           {project.technologies.map((tech) => (
             <span key={tech} className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
@@ -54,19 +48,46 @@ After confirmation by the case manager, a caring response will be sent back to t
             </span>
           ))}
         </div>
-      </div>
+        <br />
 
+        <a href="https://www.dropbox.com/scl/fi/sd6jmitx3x2olmgndajga/BDA-Final.pdf?rlkey=ggkiljh5nmkew2ezdc3ieehrb&e=2&st=vkzizzfx&dl=0" 
+            className="text-blue-600 hover:underline px-6 py-2 bg-gray-100 dark:bg-gray-800 rounded-lg transition-colors"
+            target="_blank"
+            rel="noopener noreferrer">Link to Slides 🔗</a>
+
+      </div>
+      
       {/* Project Overview */}
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Project Overview</h2>
         <div className="prose dark:prose-invert">
-            
     <p className='indent-8'>
-    <a href="https://taide.tw/index" 
-     className="text-blue-600 hover:underline"
-     target="_blank"
-     rel="noopener noreferrer">TAIDE</a> is a project led by Academia Sinica, aimed at developing a large language model (LLM) tailored to Taiwanese culture with expertise across various domains. Our team specifically focuses on the medical field.
-     </p>
+    The project aims to increase the average order value of an e-commerce platform by recommending products that are frequently bought together. The project uses the Apriori algorithm to analyze the shopping basket data and generate recommendations.
+    We have chosen the biggest e-commerce platform in Taiwan as our case study. The platform has a wide range of products, including electronics, clothing, and groceries. By analyzing the shopping basket data, we aim to provide customers with personalized recommendations, increasing the likelihood of purchasing additional items.
+    
+    </p>
+
+    <br />
+    <p className='indent-8'>
+    The Apriori algorithm is a popular algorithm for mining frequent itemsets and generating association rules. It works by identifying frequent itemsets and using them to generate rules that describe the relationships between items. These rules can then be used to make recommendations to customers based on their shopping history.
+    </p>
+    <br />
+
+    <h2 className="text-2xl font-semibold mb-4"> Data Preprocessing</h2>
+    <p className='indent-8'>The first step in the project is to preprocess the shopping basket data. This involves cleaning the data, removing duplicates, and transforming it into a format that can be used by the Apriori algorithm. The data is then analyzed to identify frequent itemsets and generate association rules.</p>
+
+    <p>Doing Classification: </p>
+    <br />
+
+    <h2 className="text-2xl font-semibold mb-4">Generate Recommendation</h2>
+
+    <p className='indent-8'>The final step in the project is to generate recommendations for customers based on the association rules generated by the Apriori algorithm. These recommendations are personalized to each customer based on their shopping history and are designed to increase the average order value of the e-commerce platform.</p>
+
+
+
+    <br />
+    <br />
+    <br />
      <p className='indent-8'>Figure 1 illustrates the system software module design architecture of our team. Starting from the top left, the user inputs a query through an interface such as Streamlit (represented as "text" in the figure). This input undergoes an embedding process (labeled as "embedding" in the figure). </p>
 
 <p className='indent-8'>Before this, the patient education data obtained from Taichung Veterans General Hospital is segmented into chunks (shown as "chunks" in the figure) and also processed into embeddings. These embeddings are stored in a database and later matched with the embedded user query through a retrieval process (labeled as "retrieval" in the figure) to extract relevant information from the patient education data.</p>
@@ -74,27 +95,28 @@ After confirmation by the case manager, a caring response will be sent back to t
 <p className='indent-8'>Finally, both the retrieved text and the original user query are fed into the TAIDE language model. At this stage, the model has access to both the user's initial question and the relevant external patient education materials. It integrates and synthesizes this information to generate the final response, ensuring that the user receives the most accurate and up-to-date information.</p>
 
 <p className='indent-8'>Additionally, we implemented a method called Reinforcement Learning from Human Feedback (RLHF), where medical professionals provide ratings on different responses. This feedback enables the model to undergo reinforcement learning, allowing it to better align with real-world medical applications. Through iterative optimization, the model continuously improves, evolving into a more effective and reliable case manager language model.</p>
+
         </div>
       </section>
 
     {/* Project Picture */}
     <div className="mb-12 ">
         <Image
-        src={"/projects-pic/RAG-flowchart.png"}
+        src={"/projects-pic/shopping-basket/customer-chart.png"}
         alt="Project Picture"
         width={800}
         height={400}
         /> <br />
-        <p className="text-center text-gray-500 mt-2">Figure 1: The flowchart to the design</p>
+        <p className="text-center text-gray-500 mt-2">Figure 1: Customer Group Chart</p>
     </div>
 
     {/* Project Picture */}
         <div className="mb-12 ">
         <Image
-        src={"/projects-pic/RAG-technical.png"}
+        src={"/projects-pic/shopping-basket/joint-purchase.png"}
         alt="Project Picture"
-        width={900}
-        height={450}
+        width={600}
+        height={300}
         />
         <p className="text-center mt-2">We use the base mode “Llama3-TAIDE-LX-8B-Chat-Alpha1” to fine-tune our medical LLM, and then  we combine with the technique of RAG, and thus provide precise medical response to the end users (patients/ medical practitioners).</p>
     </div>
@@ -102,10 +124,10 @@ After confirmation by the case manager, a caring response will be sent back to t
     {/* Project Picture */}
     <div className="mb-12 ">
         <Image
-        src={"/projects-pic/RAG-result.png"}
+        src={"/projects-pic/shopping-basket/top10-items.png"}
         alt="Project Picture"
-        width={500}
-        height={250}
+        width={900}
+        height={450}
         />
         <p className="text-center text-gray-500 mt-2">Figure 2: The RAG answer generated by the case manager LLM</p>
     </div>
