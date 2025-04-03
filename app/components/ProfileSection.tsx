@@ -60,14 +60,14 @@ export default function ProfileSection() {
         <Image
             src="/hku-logo.png"  // Make sure to place your NTU logo in the public folder
             alt="The University of Hong Kong Logo"
-            width={75}
-            height={75}
+            width={70}
+            height={70}
             className="object-contain"
           />
           <div>
             <p className="font-medium">The University of Hong Kong</p>
             <p className="text-gray-600">Exchange Student Program</p>
-            <p className="text-sm text-gray-500"></p>
+            <p className="text-sm text-gray-500">Faculty of Business and Economics (HKU Business School)</p>
           </div>
         </div>}
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
@@ -80,8 +80,22 @@ export default function ProfileSection() {
           />
           <div>
             <p className="font-medium">National Hsinchu Girls' Senior High School</p>
-            <p className="text-gray-600">Language Talented Class, Science & Engineering Major</p>
-            {<p className="text-sm text-gray-500">Senior High School Student</p>}
+            <p className="text-gray-600">Language Talented Class</p>
+            {<p className="text-sm text-gray-500"></p>}
+          </div>
+        </div>
+        <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
+          <Image
+            src="/korrnell-logo.png"  // Make sure to place your NTU logo in the public folder
+            alt="Korrnell Academy Logo"
+            width={75}
+            height={75}
+            className="object-contain"
+          />
+          <div>
+            <p className="font-medium">Korrnell Academy</p>
+            <p className="text-gray-600">Bilingual School Education for 10 years</p>
+            {<p className="text-sm text-gray-500">Graduated with Academic Ranking 1st Place</p>}
           </div>
         </div>
       

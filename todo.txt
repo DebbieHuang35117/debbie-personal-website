@@ -6,6 +6,10 @@ Add my resume onto the website
 量化 achievement
 中文版 resume
 focus on the "impact" not only "what you did"
+Add research experience section
+    - 中研院
+    - FinDA Lab
+    - 小傑專題
 凸顯 DEI
 Add:
     \resumePOR{Book Club Member } % Position
@@ -18,3 +22,4 @@ Could include:
 
 
 Add RA in Academia Sinica Research Center for Information Technology Innovation
+Make Projects Another page; Make extracurricular activites another page
