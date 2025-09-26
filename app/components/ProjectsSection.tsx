@@ -5,6 +5,20 @@ import Image from 'next/image';
 
 export default function ProjectsSection() {
   const projects = [
+      { // move to work experience section
+      title: "AI Quantitative Intern @ UC Capital",
+      period: "Jul. 2025 - Present",
+      description: "Developing AI-driven trading strategies and tools to enhance investment decision-making processes. Collaborating with cross-functional teams to integrate machine learning models into trading systems.",
+      slug: "ai-quantitative-intern",
+      tags: ["AI", "Quantitative Finance", "Machine Learning"]
+    },
+    { // move to work experience section
+      title: "Research Assistant @ NTU FinDA Lab",
+      period: "Mar. 2025 - Aug. 2025",
+      description: "Conducting research on the application of AI and machine learning in financial data analysis. Assisting in the development of algorithms for market prediction and risk assessment.",
+      slug: "research-assistant-ntu-finda-lab",
+      tags: ["Text Mining", "Financial Data Analysis", "Regression Analysis"]
+    },
     {
       title: "Medical Diagnosis LLM",
       period: "Jun. 2024 - Present",

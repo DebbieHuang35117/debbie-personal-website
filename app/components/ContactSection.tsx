@@ -41,7 +41,7 @@ export default function ContactSection() {
           </div>
           <div className="flex items-center gap-3 justify-center">
             <MapPin className="text-gray-600" />
-            <span>Taipei, Taiwan</span>
+            <span>Hong Kong & Taipei, Taiwan</span>
           </div>
         </div>
 
