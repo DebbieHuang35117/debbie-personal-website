@@ -31,7 +31,7 @@ export default function ProfileSection() {
           in <span className="font-bold">medical AI</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
           <p className="indent-8">As a <span className="font-bold">Business Development Director</span> at Global Leadership Organization and former <span className="font-bold">Academic Director</span> at 
-          Google Development Student Club, my self-position mission is that <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>.</p>
+          Google Development Student Club, my self-position mission is that <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>. Trying to achieve service as a lifestyle everyday.</p>
         </div>
         </div>
         
