@@ -128,6 +128,8 @@ const ActivitiesSection = () => {
     <div className="space-y-8">
     <p>I am passionate about <span className='font-bold'>creating a meaningful impact</span> in my community, particularly in the areas of <span className='font-bold'>leadership</span> and <span className='font-bold'>programming education</span> for Taiwanese students.
 My <span className='font-bold'>involvement in two kinds of activites</span> highlights my leadership and contributions for the passion: Global Leadership Organization and programming education services.
+
+I deeply believe in <span className='font-bold'>service as a lifestyle</span>.
   </p>
       {GLOactivities.map((org, orgIndex) => (
         <div key={orgIndex} className="relative">
