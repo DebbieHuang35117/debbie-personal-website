@@ -7,8 +7,14 @@ const ActivitiesSection = () => {
       organization: "Global Leadership Organization",
       positions: [
         {
+          title: "Mentor, Student Ambassador Program",
+          duration: "Sep. 2025 - Present",
+          description: "Serve as a mentor for the Student Ambassador Program, providing guidance and support to student leaders in their personal and professional development.",
+          tags: ["Self Development", "Coaching Strategy", "Mentorship"]
+        }, 
+        {
           title: "Business Development Director",
-          duration: "Feb. 2025 - Present",
+          duration: "Feb. 2025 - Aug. 2025",
           description: "Established partnerships with over 20 sponsors. Developed new revenue streams through innovative program offerings. Also led the Student Ambassador team of 10 people.",
           tags: ["Partnership Development", "Team Leadership", "Business Strategy", "Negotiation"]
         }, 
@@ -129,7 +135,7 @@ const ActivitiesSection = () => {
     <p>I am passionate about <span className='font-bold'>creating a meaningful impact</span> in my community, particularly in the areas of <span className='font-bold'>leadership</span> and <span className='font-bold'>programming education</span> for Taiwanese students.
 My <span className='font-bold'>involvement in two kinds of activites</span> highlights my leadership and contributions for the passion: Global Leadership Organization and programming education services.
 
-I deeply believe in <span className='font-bold'>service as a lifestyle</span>.
+I deeply believe that <span className='font-bold'>service could be served as a lifestyle</span>.
   </p>
       {GLOactivities.map((org, orgIndex) => (
         <div key={orgIndex} className="relative">
