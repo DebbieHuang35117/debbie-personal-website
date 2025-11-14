@@ -51,7 +51,7 @@ export default function ProfileSection() {
             className="object-contain"
           />
           <div>
-            <p className="font-medium">B.S. in National Taiwan University</p>
+            <p className="font-medium">Bachelor in National Taiwan University</p>
             <p className="text-gray-600">Information Management Major, Computer Science Minor<br /> Enrolled in Intelligence Medicine Program</p>
             <p className="text-sm text-gray-500">Academic Ranking 1st Place in 2022</p>
           </div>
