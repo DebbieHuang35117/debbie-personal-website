@@ -1,3 +1,7 @@
+Update informations
+手機版本
+點進去每個專案的詳細介紹
+
 Add icons to extracurricular activites organizations
 Change header part
 Finish the detailed part of data

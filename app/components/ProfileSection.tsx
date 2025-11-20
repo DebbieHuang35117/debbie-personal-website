@@ -65,9 +65,9 @@ export default function ProfileSection() {
             className="object-contain"
           />
           <div>
-            <p className="font-medium">The University of Hong Kong</p>
+            <p className="font-medium">The University of Hong Kong (1st Place in Asia in QS World University Rankings 2026)</p>
             <p className="text-gray-600">Exchange Student Program</p>
-            <p className="text-sm text-gray-500">Faculty of Business and Economics (HKU Business School)</p>
+            <p className="text-sm text-gray-500">Faculty of Business and Economics</p>
           </div>
         </div>}
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
@@ -115,7 +115,7 @@ export default function ProfileSection() {
                     </div>
                     <div>
                         <p className="font-medium">‣ English: Proficient</p>
-                        <p className="font-normal text-gray-600">📝 TOEFL 106, GEPT high-intermediate level</p>
+                        <p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
                     </div></div>
             </div><br />
           <div>
@@ -141,6 +141,7 @@ export default function ProfileSection() {
             <div className="flex flex-wrap gap-2">
             {[
                 { skill: 'Deep Learning', slug: 'deep-learning' },
+                { skill: 'Machine Learning', slug: 'machine-learning' },
                 { skill: 'Information Retrieval', slug: 'information-retrieval' },
                 { skill: 'Large Language Models', slug: 'large-language-models' },
                 { skill: 'Data Analysis', slug: 'data-analysis' },
@@ -148,7 +149,8 @@ export default function ProfileSection() {
                 { skill: 'Backend', slug: 'backend' },
                 {skill: 'Data Structure and Algorithm', slug: 'data-structure-and-algorithm' },
                 {skill: 'Operations Research', slug: 'operations-research' },
-                {skill: 'System Programming', slug: 'system-programming' },
+                { skill: 'Quantitative Finance', slug: 'quantitative-finance' }
+                /*{skill: 'System Programming', slug: 'system-programming' },*/
             ].map(({ skill, slug }) => (
                 <div 
                 key={skill} 
