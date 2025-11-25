@@ -115,7 +115,7 @@ export default function ProfileSection() {
                         <p className="font-medium">‣ Chinese: Native Language</p>
                     </div>
                     <div>
-                        <p className="font-medium">‣ English: Proficient, 📝 IELTS 8/9</p>
+                        <p className="font-medium">‣ English: Proficient; 📝 IELTS 8/9</p>
                         {/*<p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
                     </div>
                     <div>
