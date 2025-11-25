@@ -83,6 +83,8 @@ export default function ProfessionalWorkSection({
 }: Props) {
     return (
         <section aria-labelledby="professional-work-heading" className="max-w-3xl w-full">
+        <h3 className="font-semibold text-2xl mb-3">Professional Experience</h3>
+        <div className="h-px bg-gray-200 mb-6" />
             <h2 id="professional-work-heading" className="font-semibold text-2xl mb-3">
                 Professional Experience
             </h2>
