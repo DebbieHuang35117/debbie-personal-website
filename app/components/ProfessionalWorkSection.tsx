@@ -44,7 +44,12 @@ const defaultExperiences: ProfessionalExperience[] = [
         summary:
             "Analyzing Stocks-Selling Strategy Using AI Approaches",
         responsibilities: [
-            "Developed and evaluated AI models to optimize stock-selling strategies, improving decision-making processes for investment portfolios.",
+            `I am responsible for developing and evaluating AI models to optimize stock-selling strategies, improving decision-making processes for investment portfolios.
+            Specifically, I helped design a dynamic sell-side execution algorithm and constructed features.
+            I trained models to predict short-term price movements, followed by further experiments with learning architectures. 
+            We focused on model interpretability highlighted the importance of adaptability, explainability, and risk-aware design in volatile markets. 
+            This experience solidified my interest in quantitative research and the creative, systems-driven thinking it requires. 
+            `,
         ],
         tags: ["Python", "Quantitative Finance", "Machine Learning", "Reinforcement Learning"],
         link: "https://www.uccapital.com.tw/TalentProgram/quant2025.html",
@@ -59,9 +64,13 @@ const defaultExperiences: ProfessionalExperience[] = [
         summary:
             "Medical Case Manager Large Language Model: TAIDE Project",
             responsibilities: [
-            "TAIDE is a generative AI dialogue model designed to reflect Taiwan’s cultural context and healthcare needs. It is an exclusive and pioneering project led by Academia Sinica, playing a significant role in advancing Taiwan’s specialized large language models. In this project, we implemented Retrieval-Augmented Generation to adapt the model to the medical domain, using data provided exclusively by Taichung Veterans General Hospital. We also incorporated iterative human feedback from medical professionals to refine the model’s responses. Ultimately, the system supported doctors by offering preliminary recommendations and improving the efficiency of patient education and case management.",
-            "Worked on ML model evaluation tooling and data pipelines for a computational biology project.",
-            "Authored data processing pipelines in Python.",
+            `
+            TAIDE is a generative AI dialogue model designed to reflect Taiwan’s cultural context and healthcare needs. 
+            It is an exclusive and pioneering project led by Academia Sinica, playing a significant role in advancing Taiwan’s specialized large language models. 
+            In this project, we implemented Retrieval-Augmented Generation to adapt the model to the medical domain, using data provided exclusively by Taichung Veterans General Hospital. 
+            We also incorporated iterative human feedback from medical professionals to refine the model’s responses. 
+            Ultimately, the system supported doctors by offering preliminary recommendations and improving the efficiency of patient education and case management.
+            `,
         ],
         tags: ["Python", "Pytorch", "Large Language Models", "RAG", "RLHF"],
         link: "https://taide.tw/index",
