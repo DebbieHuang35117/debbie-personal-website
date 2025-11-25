@@ -82,8 +82,8 @@ export default function ProfessionalWorkSection({
     experiences = defaultExperiences,
 }: Props) {
     return (
-        <section aria-labelledby="professional-work-heading" className={className}>
-            <h2 id="professional-work-heading" style={headingStyle}>
+        <section aria-labelledby="professional-work-heading" className="max-w-3xl w-full">
+            <h2 id="professional-work-heading" style={headingStyle} className="text-2xl font-bold mb-6">
                 Professional Experience
             </h2>
 
