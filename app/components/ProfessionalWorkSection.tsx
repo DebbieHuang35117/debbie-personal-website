@@ -148,7 +148,7 @@ export default function ProfessionalWorkSection({
 const headingStyle: React.CSSProperties = {
     fontSize: "1.25rem",
     margin: "0 0 0.75rem 0",
-    fontWeight: 600,
+    fontWeight: 1000,
 };
 
 const listStyle: React.CSSProperties = {
@@ -158,7 +158,7 @@ const listStyle: React.CSSProperties = {
 
 const cardStyle: React.CSSProperties = {
     padding: "1rem",
-    borderRadius: 6,
+    borderRadius: 8,
     border: "1px solid rgba(0,0,0,0.06)",
     background: "white",
     boxShadow: "0 1px 2px rgba(0,0,0,0.03)",

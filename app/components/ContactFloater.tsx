@@ -24,12 +24,6 @@ export default function ContactFloater() {
         fact: "Debbie Huang 🔗",
         hyperlink: "https://www.linkedin.com/in/debbie-huang-b813b7271/"
       },
-      {/*
-        emoji: "",
-        icon: "/icons/GitHub-icon.png",
-        fact: "DebbieHuang35117 🔗",
-        hyperlink: "https://github.com/DebbieHuang35117"
-      */},
       {
         emoji: "📞",
         icon:"",
@@ -39,6 +33,13 @@ export default function ContactFloater() {
       }
       // Add more personal facts
     ];
+
+    {/*
+        emoji: "",
+        icon: "/icons/GitHub-icon.png",
+        fact: "DebbieHuang35117 🔗",
+        hyperlink: "https://github.com/DebbieHuang35117"
+    */}
 
     const [copiedFacts, setCopiedFact] = useState<{[key: string]: boolean}>({});
 
