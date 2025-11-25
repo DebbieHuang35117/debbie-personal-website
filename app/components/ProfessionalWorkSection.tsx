@@ -21,7 +21,7 @@ type Props = {
 const defaultExperiences: ProfessionalExperience[] = [
     {
         id: "3",
-        role: "Technical Solution Engineer Intern",
+        role: "Upcoming Technical Solution Engineer Intern",
         company: "Appier",
         startDate: "Dec. 2025",
         endDate: "Present",
@@ -158,7 +158,7 @@ const listStyle: React.CSSProperties = {
 
 const cardStyle: React.CSSProperties = {
     padding: "1rem",
-    borderRadius: 8,
+    borderRadius: 6,
     border: "1px solid rgba(0,0,0,0.06)",
     background: "white",
     boxShadow: "0 1px 2px rgba(0,0,0,0.03)",
