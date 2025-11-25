@@ -44,12 +44,6 @@ const ActivitiesSection = () => {
           tags: ["Python", "Lecturing", "Teaching Material Preparation", "Data Analysis", "Data Visualization"]
         },
         {
-          title: "Teaching Assistant, Rural Python Education Program",
-          duration: "Sep. 2023 - Nov. 2023",
-          description: "Developed curriculum and taught Python programming to 50+ students in Yilan Junior High School and Shunan Junior High School.",
-          tags: ["Teaching", "Python", "Curriculum Development", "Design Thinking"]
-        },
-        {
           title: "Academic Director, Google Student Development Club",
           duration: "Sep. 2023 - Jun. 2024",
           description: "Led the club to organize various events and workshops to help students learn more about Google technologies and develop their projects.",
@@ -66,8 +60,8 @@ const ActivitiesSection = () => {
       }, 
       
       {
-        title: "Teaching Assistant, Rural Python Education Program",
-          duration: "Sep. 2022 - Nov. 2022",
+        title: "Teaching Participant, Rural Python Education Program",
+          duration: "Nov. 2022 & Nov. 2023",
           description: "Developed curriculum and taught Python programming to 50+ students in Yilan Junior High School and Shunan Junior High School.",
           tags: ["Teaching", "Python", "Curriculum Development", "Design Thinking"], 
           url: "https://management.ntu.edu.tw/IM/news/detail/sn/1665"
