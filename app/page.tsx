@@ -17,7 +17,7 @@ export default function Home() {
           <Header />
           <ContactFloater />
           <ProfileSection />
-          <ProfessionalWorkSection className="max-w-3xl w-full"/>
+          <ProfessionalWorkSection/>
           <ProjectsSection />
           <ExperienceSection />
           <ContactSection />

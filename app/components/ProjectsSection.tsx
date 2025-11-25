@@ -31,7 +31,7 @@ export default function ProjectsSection() {
       period: "Jun. 2024 - Present",
       description: "Implementing Retrieval-Augmented Generation technique to fine-tune LLM to the medical field. Optimizing TAIDE for Taiwan's cultural characteristics.",
       slug: "medical-case-manager",
-      has_slug: true,
+      has_slug_page: true,
       //github: "https://github.com/2024-sinica-medLLM",
       tags: ["LLM", "RAG", "TAIDE"]
     },
@@ -102,7 +102,7 @@ export default function ProjectsSection() {
         {projects.map((project) => (
           <Link 
             /*href={{/*project.slug_not_done && project.github ? (project.github) : (project.website ? project.website : `/projects/${project.slug}`)}}*/
-            href={project.has_slug ? (`/projects/${project.slug}`) : ("#")} 
+            href={project.has_slug_page ? (`/projects/${project.slug}`) : ("#")} 
             key={project.slug}
             className="block group"
           >
