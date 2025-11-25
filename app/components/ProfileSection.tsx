@@ -41,7 +41,7 @@ export default function ProfileSection() {
 
       {/* Education */}
       <div className="w-full">
-        <h3 className="font-fancy font-semibold text-2xl mb-3">Education</h3>
+        <h3 className="font-semibold text-2xl mb-3">Education</h3>
         <div className="h-px bg-gray-200 mb-6" />
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
           <Image
@@ -104,7 +104,7 @@ export default function ProfileSection() {
 
       {/* Technical Skills */}
       <div className="w-full">
-        <h3 className="font-fancy font-semibold text-2xl mb-3">Technical Skills</h3>
+        <h3 className="font-semibold text-2xl mb-3">Technical Skills</h3>
         <div className="h-px bg-gray-200 mb-6" />
         <div className="space-y-3">
             <div>
@@ -112,11 +112,15 @@ export default function ProfileSection() {
 
                 <div>
                     <div className="flex flex-wrap gap-2">
-                        <p className="font-medium">‣ Chinese: Fluent</p>
+                        <p className="font-medium">‣ Chinese: Native Language</p>
                     </div>
                     <div>
-                        <p className="font-medium">‣ English: Proficient</p>
-                        <p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
+                        <p className="font-medium">‣ English: Proficient, 📝 IELTS 8/9</p>
+                        {/*<p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
+                    </div>
+                    <div>
+                        <p className="font-medium">‣ Cantonese: Basic</p>
+                        {/*<p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
                     </div></div>
             </div><br />
           <div>
@@ -138,19 +142,20 @@ export default function ProfileSection() {
           </div>
           <br />
           <div>
-            <h4 className="font-fancy font-medium mb-2">Areas of Expertise{/*(click for relevant projects)*/}</h4>
+            <h4 className="font-medium mb-2">Areas of Expertise{/*(click for relevant projects)*/}</h4>
             <div className="flex flex-wrap gap-2">
             {[
-                { skill: 'Deep Learning', slug: 'deep-learning' },
                 { skill: 'Machine Learning', slug: 'machine-learning' },
-                { skill: 'Information Retrieval', slug: 'information-retrieval' },
+                { skill: 'Deep Learning', slug: 'deep-learning' },
                 { skill: 'Large Language Models', slug: 'large-language-models' },
+                { skill: 'Information Retrieval', slug: 'information-retrieval' },
                 { skill: 'Data Analysis', slug: 'data-analysis' },
                 { skill: 'Database', slug: 'database' },
                 { skill: 'Backend', slug: 'backend' },
-                {skill: 'Data Structure and Algorithm', slug: 'data-structure-and-algorithm' },
-                {skill: 'Operations Research', slug: 'operations-research' },
+                { skill: 'Optimization', slug: 'optimization' },
+                { skill: 'Operations Research', slug: 'operations-research' },
                 { skill: 'Quantitative Finance', slug: 'quantitative-finance' }
+                /*{ skill: 'Data Structure and Algorithm', slug: 'data-structure-and-algorithm' },*/
                 /*{skill: 'System Programming', slug: 'system-programming' },*/
             ].map(({ skill, slug }) => (
                 <div 
@@ -180,9 +185,9 @@ export default function ProfileSection() {
     { skill: 'Leadership', slug: 'leadership' },
     { skill: 'Team Management', slug: 'team-management' },
     { skill: 'Project Management', slug: 'project-management' },
+    { skill: 'Meeting Management', slug: 'meeting-management' },
     { skill: 'Marketing Strategy', slug: 'marketing-strategy' },
-    { skill: 'Business Development', slug: 'business-development' },
-    { skill: 'Meeting Facilitation', slug: 'meeting-facilitation' }
+    { skill: 'Business Development', slug: 'business-development' }
   ].map(({ skill, slug }) => (
     <div 
       key={skill} 
