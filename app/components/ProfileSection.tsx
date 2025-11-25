@@ -31,7 +31,8 @@ export default function ProfileSection() {
           in <span className="font-bold">medical AI</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
           <p className="indent-8">As a <span className="font-bold">Business Development Director</span> at Global Leadership Organization and former <span className="font-bold">Academic Director</span> at 
-          Google Development Student Club, my self-position mission is that <span className="italic font-bold">I hope bridge the gap between technology and business solutions</span>. Trying to achieve service as a lifestyle everyday.</p>
+          Google Development Student Club, my self-position mission is that <span className="font-bold">I hope bridge the gap between technology and business solutions</span>.
+          Apart from academic, I also aim to achieve service as a lifestyle in everyday life.</p>
         </div>
         </div>
         
@@ -40,7 +41,7 @@ export default function ProfileSection() {
 
       {/* Education */}
       <div className="w-full">
-        <h3 className="font-semibold text-2xl mb-3">Education</h3>
+        <h3 className="font-fancy font-semibold text-2xl mb-3">Education</h3>
         <div className="h-px bg-gray-200 mb-6" />
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
           <Image
@@ -65,9 +66,9 @@ export default function ProfileSection() {
             className="object-contain"
           />
           <div>
-            <p className="font-medium">The University of Hong Kong (1st Place in Asia in QS World University Rankings 2026)</p>
+            <p className="font-medium">The University of Hong Kong</p>
             <p className="text-gray-600">Exchange Student Program</p>
-            <p className="text-sm text-gray-500">Faculty of Business and Economics</p>
+            <p className="text-sm text-gray-500">Faculty of Business and Economics (1st Place in Asia in QS World University Rankings 2026)</p>
           </div>
         </div>}
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
@@ -103,7 +104,7 @@ export default function ProfileSection() {
 
       {/* Technical Skills */}
       <div className="w-full">
-        <h3 className="font-semibold text-2xl mb-3">Technical Skills</h3>
+        <h3 className="font-fancy font-semibold text-2xl mb-3">Technical Skills</h3>
         <div className="h-px bg-gray-200 mb-6" />
         <div className="space-y-3">
             <div>
@@ -137,7 +138,7 @@ export default function ProfileSection() {
           </div>
           <br />
           <div>
-            <h4 className="font-medium mb-2">Areas of Expertise{/*(click for relevant projects)*/}</h4>
+            <h4 className="font-fancy font-medium mb-2">Areas of Expertise{/*(click for relevant projects)*/}</h4>
             <div className="flex flex-wrap gap-2">
             {[
                 { skill: 'Deep Learning', slug: 'deep-learning' },
