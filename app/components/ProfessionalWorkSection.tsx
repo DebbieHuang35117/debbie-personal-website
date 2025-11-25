@@ -20,36 +20,51 @@ type Props = {
 
 const defaultExperiences: ProfessionalExperience[] = [
     {
-        id: "1",
-        role: "Software Engineering Intern",
-        company: "Example Corp",
-        startDate: "Jun 2024",
-        endDate: "Aug 2024",
-        location: "Remote",
+        id: "3",
+        role: "Technical Solution Engineer Intern",
+        company: "Appier",
+        startDate: "Dec. 2025",
+        endDate: "Present",
+        location: "Taipei, Taiwan",
         summary:
-            "Built features and fixed bugs in a React + Node.js monorepo. Improved test coverage and developer workflow.",
+            "Optimizing Advertisement Automation for News Pushing on Clients' Application",
         responsibilities: [
-            "Implemented a reusable table component with sorting and pagination.",
-            "Reduced CI test time by 30% by parallelizing jobs.",
-            "Wrote unit and integration tests (Jest, Testing Library).",
+            ""
         ],
-        tags: ["React", "Node.js", "TypeScript", "Jest"],
-        link: "https://example.com",
+        tags: [""],
+        link: "https://www.appier.com/en/about",
     },
     {
         id: "2",
-        role: "Research Assistant",
-        company: "University Lab",
-        startDate: "Sep 2022",
-        endDate: "May 2023",
-        location: "Cambridge, MA",
+        role: "AI Quantitative Intern",
+        company: "UC Capital",
+        startDate: "Jul. 2025",
+        endDate: "Aug. 2025",
+        location: "Taipei, Taiwan",
         summary:
-            "Worked on ML model evaluation tooling and data pipelines for a computational biology project.",
+            "Analyzing Stocks-Selling Strategy Using AI Approaches",
         responsibilities: [
-            "Authored data processing pipelines in Python.",
-            "Designed reproducible experiments and produced visualization dashboards.",
+            "Developed and evaluated AI models to optimize stock-selling strategies, improving decision-making processes for investment portfolios.",
         ],
-        tags: ["Python", "Pandas", "Machine Learning"],
+        tags: ["Python", "Quantitative Finance", "Machine Learning", "Reinforcement Learning"],
+        link: "https://www.uccapital.com.tw/TalentProgram/quant2025.html",
+    },
+    {
+        id: "1",
+        role: "Research Assistant",
+        company: "Academica Sinica",
+        startDate: "Jun. 2024",
+        endDate: "Feb. 2025",
+        location: "Remote",
+        summary:
+            "Medical Case Manager Large Language Model: TAIDE Project",
+            responsibilities: [
+            "TAIDE is a generative AI dialogue model designed to reflect Taiwan’s cultural context and healthcare needs. It is an exclusive and pioneering project led by Academia Sinica, playing a significant role in advancing Taiwan’s specialized large language models. In this project, we implemented Retrieval-Augmented Generation to adapt the model to the medical domain, using data provided exclusively by Taichung Veterans General Hospital. We also incorporated iterative human feedback from medical professionals to refine the model’s responses. Ultimately, the system supported doctors by offering preliminary recommendations and improving the efficiency of patient education and case management.",
+            "Worked on ML model evaluation tooling and data pipelines for a computational biology project.",
+            "Authored data processing pipelines in Python.",
+        ],
+        tags: ["Python", "Pytorch", "Large Language Models", "RAG", "RLHF"],
+        link: "https://taide.tw/index",
     },
 ];
 
