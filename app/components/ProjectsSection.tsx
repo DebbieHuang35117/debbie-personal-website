@@ -121,11 +121,7 @@ export default function ProjectsSection() {
                           Project Link
                       </a>
                   ) : null}
-                  {project.has_slug_page ? (
-                      <Link href={`/projects/${project.slug}`} style={linkStyle}>
-                          Detailed Description
-                      </Link>
-                  ) : null}
+
                   {/*
                   </div>{project.github && (
                     <div 
