@@ -1,8 +1,6 @@
 // app/components/ProjectsSection.tsx
 'use client'
 import Link from 'next/link';
-import Image from 'next/image';
-import { link } from 'fs';
 
 export default function ProjectsSection() {
   const projects = [
@@ -122,10 +120,10 @@ export default function ProjectsSection() {
                       </a>
                   ) : null}
                   {project.has_slug_page ? (
-                      <a href={project.link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-                          Project Link
-                      </a>
-                  ) : null }
+                      <Link href={`/projects/${project.slug}`} style={linkStyle}>
+                          Detailed Description
+                      </Link>
+                  ) : null}
                 {/*
                 </div>{project.github && (
                    <div 
