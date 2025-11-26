@@ -121,6 +121,12 @@ export default function ProjectsSection() {
                           Project Link
                       </a>
                   ) : null}
+                  {project.has_slug_page ? (
+                      <a href={`/projects/${project.slug}`} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                          Detailed Description
+                      </a>
+                  ) : null
+                  }
                 {/*
                 </div>{project.github && (
                    <div 
