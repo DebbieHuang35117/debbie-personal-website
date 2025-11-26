@@ -124,23 +124,23 @@ export default function ProjectsSection() {
                           Detailed Description
                       </Link>
                   ) : null}
-                {/*
-                </div>{project.github && (
-                   <div 
-                   onClick={(e) => handleGithubClick(e, project.github)}
-                   className="relative z-10 bg-white p-2 rounded-md shadow-md -ml-1 cursor-pointer"
-                 >
-                   <Image 
-                     src="/icons/github_logo.png"
-                     alt="GitHub"
-                     width={24}
-                     height={24}
-                     className="object-contain transition-transform transform hover:scale-110 hover:opacity-80"
-                   />
-                 </div>
-                    )
-                }
-                */}
+                  {/*
+                  </div>{project.github && (
+                    <div 
+                    onClick={(e) => handleGithubClick(e, project.github)}
+                    className="relative z-10 bg-white p-2 rounded-md shadow-md -ml-1 cursor-pointer"
+                  >
+                    <Image 
+                      src="/icons/github_logo.png"
+                      alt="GitHub"
+                      width={24}
+                      height={24}
+                      className="object-contain transition-transform transform hover:scale-110 hover:opacity-80"
+                    />
+                  </div>
+                      )
+                  }
+                  */}
               <span className="text-sm text-gray-500">{project.period}</span>
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
