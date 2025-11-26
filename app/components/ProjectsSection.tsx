@@ -122,7 +122,7 @@ export default function ProjectsSection() {
                       </a>
                   ) : null}
                   {project.has_slug_page ? (
-                      <a href={`/projects/${project.slug}`} rel="noopener noreferrer" style={linkStyle}>
+                      <a href={`/projects/${project.slug}`} style={linkStyle}>
                           Detailed Description
                       </a>
                   ) : null
