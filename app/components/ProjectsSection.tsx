@@ -102,20 +102,12 @@ export default function ProjectsSection() {
       <div className="h-px bg-gray-200 mb-6" />
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project) => (
-          // <Link 
-          //   /*href={{/*project.slug_not_done && project.github ? (project.github) : (project.website ? project.website : `/projects/${project.slug}`)}}*/
-          //   /*href={project.has_slug_page ? (`/projects/${project.slug}`) : ("#")}*/ 
-          //   href={`/projects/${project.slug}`}
-          //   key={project.slug}
-          //   className="block group"
-          // >
             <div key={project.slug} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
               <div className="flex justify-between items-start mb-2">
                 <h3 className={`text-xl font-semibold ${project.has_slug_page ? 'group-hover:text-blue-600 dark:group-hover:text-blue-400' : ''}`}>
                 {/*</h3><h3 className="text-xl font-semibold group-hover:text-blue-600 dark:group-hover:text-blue-400">*/}
                   {project.title}
                 </h3>
-
                   {project.link ? (
                       <a href={project.link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
                           Project Link
@@ -159,7 +151,6 @@ export default function ProjectsSection() {
                 ))}
               </div>
             </div>
-          // </Link>
         ))}
       </div>
     </div>
@@ -172,4 +163,5 @@ const linkStyle: React.CSSProperties = {
     textDecoration: "none",
     color: "#0b6cff",
     whiteSpace: "nowrap",
+    cursor: "pointer", 
 };
