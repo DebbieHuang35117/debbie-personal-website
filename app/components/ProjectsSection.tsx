@@ -100,9 +100,11 @@ export default function ProjectsSection() {
       <div className="h-px bg-gray-200 mb-6" />
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project) => (
+          project.has_slug_page ? (
           <Link 
             /*href={{/*project.slug_not_done && project.github ? (project.github) : (project.website ? project.website : `/projects/${project.slug}`)}}*/
-            href={project.has_slug_page ? (`/projects/${project.slug}`) : ("#")} 
+            /*href={project.has_slug_page ? (`/projects/${project.slug}`) : ("#")}*/ 
+            href={`/projects/${project.slug}`}
             key={project.slug}
             className="block group"
           >
@@ -145,7 +147,48 @@ export default function ProjectsSection() {
                 ))}
               </div>
             </div>
-          </Link>
+          </Link>)
+          : (<div> 
+                        <div key={project.slug} className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
+              <div className="flex justify-between items-start mb-2">
+                <h3 className={`text-xl font-semibold ${project.has_slug_page ? 'group-hover:text-blue-600 dark:group-hover:text-blue-400' : ''}`}>
+                {/*</h3><h3 className="text-xl font-semibold group-hover:text-blue-600 dark:group-hover:text-blue-400">*/}
+                  {project.title}
+                </h3>
+                {/*
+                </div>{project.github && (
+                   <div 
+                   onClick={(e) => handleGithubClick(e, project.github)}
+                   className="relative z-10 bg-white p-2 rounded-md shadow-md -ml-1 cursor-pointer"
+                 >
+                   <Image 
+                     src="/icons/github_logo.png"
+                     alt="GitHub"
+                     width={24}
+                     height={24}
+                     className="object-contain transition-transform transform hover:scale-110 hover:opacity-80"
+                   />
+                 </div>
+                    )
+                }
+                */}
+                <span className="text-sm text-gray-500">{project.period}</span>
+              </div>
+              <p className="text-gray-600 dark:text-gray-300 mb-4">
+                {project.description}
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {project.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className="px-3 py-1 bg-gray-100 dark:bg-gray-800 rounded-full text-sm"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </div>)
         ))}
       </div>
     </div>
