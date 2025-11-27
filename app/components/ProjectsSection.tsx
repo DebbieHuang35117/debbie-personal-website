@@ -98,7 +98,7 @@ export default function ProjectsSection() {
 
   return (
     <div className="w-full max-w-3xl font-sans">
-      <h2 className="text-2xl font-bold mb-6">Projects (CS-Related)</h2>
+      <h2 className="text-2xl font-bold mb-6">Projects</h2>
       <div className="h-px bg-gray-200 mb-6" />
       <div className="grid grid-cols-1 gap-6">
         {projects.map((project) => (

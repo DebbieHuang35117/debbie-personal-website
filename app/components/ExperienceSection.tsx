@@ -122,7 +122,7 @@ const ActivitiesSection = () => {
   ];
 
   return (
-    <div className="max-w-3xl mx-auto p-6">
+    <div className="max-w-3xl mx-auto p-6 font-sans">
     <h2 className="text-2xl font-bold mb-6">Extracurricular  Activities</h2>
     <div className="h-px bg-gray-200 mb-6" />
     <div className="space-y-8">
