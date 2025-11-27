@@ -83,43 +83,50 @@ export default function ProfessionalWorkSection({
     experiences = defaultExperiences,
 }: Props) {
     return (
-        <section aria-labelledby="professional-work-heading" className="max-w-3xl w-full">
-            <h3 className="font-semibold text-2xl mb-3">Professional Experience</h3>
+        <section aria-labelledby="professional-work-heading" className={`max-w-3xl w-full font-sans ${className}`}>
+            <h3 className="text-2xl font-bold mb-3">Work Experience</h3>
             <div className="h-px bg-gray-200 mb-6" />
-            <div style={listStyle}>
+            <div className="grid gap-4">
                 {experiences.map((exp) => (
-                    <article key={exp.id} style={cardStyle}>
-                        <header style={cardHeaderStyle}>
+                    <article key={exp.id} className="p-4 rounded-lg border border-gray-100 bg-white shadow-sm">
+                        <header className="flex justify-between items-start gap-4 mb-2">
                             <div>
-                                <h3 style={roleStyle}>
+                                <h3 className="text-base font-semibold m-0">
                                     {exp.role}
                                     {exp.company ? (
-                                        <span style={companyStyle}> — {exp.company}</span>
+                                        <span className="font-medium text-gray-700"> — {exp.company}</span>
                                     ) : null}
                                 </h3>
-                                <div style={metaStyle}>
+                                <div className="text-sm text-gray-600 mt-1 flex gap-2 items-center">
                                     <time>
                                         {exp.startDate}
                                         {exp.endDate ? ` — ${exp.endDate}` : " — Present"}
                                     </time>
-                                    {exp.location ? <span style={dot}>•</span> : null}
+                                    {exp.location ? <span className="mx-1">•</span> : null}
                                     {exp.location ? <span>{exp.location}</span> : null}
                                 </div>
                             </div>
 
                             {exp.link ? (
-                                <a href={exp.link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+                                <a 
+                                    href={exp.link} 
+                                    target="_blank" 
+                                    rel="noopener noreferrer" 
+                                    className="text-sm text-blue-600 hover:text-blue-800 no-underline whitespace-nowrap"
+                                >
                                     Visit
                                 </a>
                             ) : null}
                         </header>
 
-                        {exp.summary ? <p style={summaryStyle}>{exp.summary}</p> : null}
+                        {exp.summary ? (
+                            <p className="my-1 text-gray-800 text-sm">{exp.summary}</p>
+                        ) : null}
 
                         {exp.responsibilities && exp.responsibilities.length > 0 ? (
-                            <ul style={ulStyle}>
+                            <ul className="m-0 pl-5 text-gray-700 text-sm">
                                 {exp.responsibilities.map((r, i) => (
-                                    <li key={i} style={liStyle}>
+                                    <li key={i} className="mb-1">
                                         {r}
                                     </li>
                                 ))}
@@ -127,9 +134,12 @@ export default function ProfessionalWorkSection({
                         ) : null}
 
                         {exp.tags && exp.tags.length > 0 ? (
-                            <div style={tagsStyle}>
+                            <div className="mt-2 flex gap-2 flex-wrap">
                                 {exp.tags.map((t) => (
-                                    <span key={t} style={tagStyle}>
+                                    <span 
+                                        key={t} 
+                                        className="text-xs px-2 py-1 rounded-full bg-blue-50 text-blue-600"
+                                    >
                                         {t}
                                     </span>
                                 ))}
@@ -141,6 +151,69 @@ export default function ProfessionalWorkSection({
         </section>
     );
 }
+// export default function ProfessionalWorkSection({
+//     className = "",
+//     experiences = defaultExperiences,
+// }: Props) {
+//     return (
+//         <section aria-labelledby="professional-work-heading" className="max-w-3xl w-full">
+//             <h3 className="text-2xl mb-3">Work Experience</h3>
+//             <div className="h-px bg-gray-200 mb-6" />
+//             <div style={listStyle}>
+//                 {experiences.map((exp) => (
+//                     <article key={exp.id} style={cardStyle}>
+//                         <header style={cardHeaderStyle}>
+//                             <div>
+//                                 <h3 style={roleStyle}>
+//                                     {exp.role}
+//                                     {exp.company ? (
+//                                         <span style={companyStyle}> — {exp.company}</span>
+//                                     ) : null}
+//                                 </h3>
+//                                 <div style={metaStyle}>
+//                                     <time>
+//                                         {exp.startDate}
+//                                         {exp.endDate ? ` — ${exp.endDate}` : " — Present"}
+//                                     </time>
+//                                     {exp.location ? <span style={dot}>•</span> : null}
+//                                     {exp.location ? <span>{exp.location}</span> : null}
+//                                 </div>
+//                             </div>
+
+//                             {exp.link ? (
+//                                 <a href={exp.link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
+//                                     Visit
+//                                 </a>
+//                             ) : null}
+//                         </header>
+
+//                         {exp.summary ? <p style={summaryStyle}>{exp.summary}</p> : null}
+
+//                         {exp.responsibilities && exp.responsibilities.length > 0 ? (
+//                             <ul style={ulStyle}>
+//                                 {exp.responsibilities.map((r, i) => (
+//                                     <li key={i} style={liStyle}>
+//                                         {r}
+//                                     </li>
+//                                 ))}
+//                             </ul>
+//                         ) : null}
+
+//                         {exp.tags && exp.tags.length > 0 ? (
+//                             <div style={tagsStyle}>
+//                                 {exp.tags.map((t) => (
+//                                     <span key={t} style={tagStyle}>
+//                                         {t}
+//                                     </span>
+//                                 ))}
+//                             </div>
+//                         ) : null}
+//                     </article>
+//                 ))}
+//             </div>
+//         </section>
+//     );
+// }
 
 /* Simple inline styles so this component renders consistently without external CSS.
      Replace or remove these for your project's styling system (Tailwind, CSS modules, etc.). */
@@ -216,6 +289,9 @@ const ulStyle: React.CSSProperties = {
 const liStyle: React.CSSProperties = {
     marginBottom: "0.25rem",
 };
+
+// complete a icon section
+
 
 const tagsStyle: React.CSSProperties = {
     marginTop: "0.5rem",
