@@ -42,6 +42,7 @@ export default function ProjectsSection() {
       period: "Feb. 2024 - Present",
       description: "Modeling and implementing optimization algorithms for production planning in aluminum doors and windows manufacturing.",
       slug: "scenic-ai-manufacturing",
+      link: "https://2024-ntuim-project.github.io/docs/description",
       //github: "https://github.com/DebbieHuang35117/aluminum-manufacturing-production-scheduling",
       tags: ["Optimization", "Manufacturing", "AI"]
     },
