@@ -6,13 +6,13 @@ import { link } from 'fs';
 
 export default function ProjectsSection() {
   const projects = [
-      { // move to work experience section
+    /*{ // move to work experience section
       title: "AI Quantitative Intern @ UC Capital",
       period: "Jul. 2025 - Present",
       description: "Developing AI-driven trading strategies and tools to enhance investment decision-making processes. Collaborating with cross-functional teams to integrate machine learning models into trading systems.",
       slug: "ai-quantitative-intern",
       tags: ["AI", "Quantitative Finance", "Machine Learning"]
-    },
+    },*/
     { // move to work experience section
       title: "Research Assistant @ NTU FinDA Lab",
       period: "Mar. 2025 - Aug. 2025",

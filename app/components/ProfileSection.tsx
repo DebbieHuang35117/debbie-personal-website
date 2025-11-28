@@ -68,7 +68,7 @@ export default function ProfileSection() {
           <div>
             <p className="font-medium">The University of Hong Kong</p>
             <p className="text-gray-600">Exchange Student Program</p>
-            <p className="text-sm text-gray-500">Faculty of Business and Economics (1st Place in Asia in QS World University Rankings 2026)</p>
+            <p className="text-sm text-gray-500">Faculty of Business and Economics (1st Place in QS Asia University Rankings 2026)</p>
           </div>
         </div>}
         <div className="flex items-center gap-6 bg-gray-50 dark:bg-gray-800 p-4 rounded-lg mt-4">
