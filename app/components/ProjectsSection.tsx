@@ -21,13 +21,13 @@ export default function ProjectsSection() {
       link: "https://www.chrislienfinance.com/research-lab-finda",
       tags: ["Text Mining", "Financial Data Analysis", "Regression Analysis"]
     },
-    {/*
+    /*{
       title: "Medical Diagnosis LLM",
       period: "Jun. 2024 - Present",
       description: "Enhancing multidisciplinary medical diagnosis via LLM with RAG. Fine-tuning models to assist doctors in diagnosing across various medical specialties.",
       slug: "medical-diagnosis-llm",
       tags: ["LLM", "RAG", "Medical AI"]
-    */},
+    },*/
     {
       title: "Medical Case Manager LLM",
       period: "Jun. 2024 - Present",
