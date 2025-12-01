@@ -7,7 +7,6 @@ Change header part
 Finish the detailed part of data
 Clone GitHub projects to my own respository
 Add my resume onto the website
-量化 achievement
 中文版 resume
 focus on the "impact" not only "what you did"
 Add research experience section

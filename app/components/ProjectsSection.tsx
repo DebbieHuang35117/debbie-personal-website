@@ -18,15 +18,16 @@ export default function ProjectsSection() {
       period: "Mar. 2025 - Aug. 2025",
       description: "Conducting research on the application of AI and machine learning in financial data analysis. Assisting in the development of algorithms for market prediction and risk assessment.",
       slug: "research-assistant-ntu-finda-lab",
+      link: "https://www.chrislienfinance.com/research-lab-finda",
       tags: ["Text Mining", "Financial Data Analysis", "Regression Analysis"]
     },
-    {
+    {/*
       title: "Medical Diagnosis LLM",
       period: "Jun. 2024 - Present",
       description: "Enhancing multidisciplinary medical diagnosis via LLM with RAG. Fine-tuning models to assist doctors in diagnosing across various medical specialties.",
       slug: "medical-diagnosis-llm",
       tags: ["LLM", "RAG", "Medical AI"]
-    },
+    */},
     {
       title: "Medical Case Manager LLM",
       period: "Jun. 2024 - Present",
@@ -51,6 +52,8 @@ export default function ProjectsSection() {
       period: "Apr. 2024 - Jun. 2024",
       description: "A mobile application designed to streamline the photo and video sharing process, enabling users to share life's moments instantly with closed ones.",
       slug: "camera-connect",
+      has_slug_page: true,
+      link: "https://drive.google.com/file/d/1GCuYVclHA6T3XyAXSY64czR8EKlrlZck/view",
       //slug_not_done: true,
       //github: "https://github.com/YouMingYeh/camera-connect",
       tags: ["Mobile App", "React Native", "Next.js", "Supabase", "Expo"]
@@ -77,6 +80,7 @@ export default function ProjectsSection() {
       period: "Sept. 2023 - Jan. 2024",
       description: "Developing a platform for students to acquaint with one another and forming study groups. Involving front-end and back-end techniques to construct a web system with over 10,000 students' data. ",
       slug: "study-connect",
+      link: "https://www.dropbox.com/scl/fi/yynzz8d511kw11px35ass/DB-Admin-demo.mov?rlkey=wff3k08sfwfxoklix9qs4ndcc&st=b715mcm2&dl=0",
       //slug_not_done: true,
       //github: "https://github.com/namwoam/study-connect",
       tags: ["Database", "MongoDB", "SQL", "Web Development", "React", "Node.js"]
@@ -87,7 +91,7 @@ export default function ProjectsSection() {
       description: "Predicting election results using GPT-3.5 for data labeling and analyzing public sentiment through social media.",
       slug: "election-prediction",
       //slug_not_done: true,
-      //website: "https://www.dropbox.com/scl/fi/wgk1vkm7c2dnhyrju7rec/.pdf?rlkey=h4x0sl2n7uljtlqzll731acub&st=cg9emwrl&dl=0",
+      link: "https://www.dropbox.com/scl/fi/wgk1vkm7c2dnhyrju7rec/.pdf?rlkey=h4x0sl2n7uljtlqzll731acub&st=cg9emwrl&dl=0",
       tags: ["GPT-3.5", "Sentiment Analysis", "NLP"]
     }
   ];

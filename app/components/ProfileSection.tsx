@@ -28,11 +28,11 @@ export default function ProfileSection() {
         <div className="font-sans text-base indent-8">
           I am an Information Management major with a Computer Science minor at National Taiwan University, 
           combining technical expertise with leadership experience. Currently involved in cutting-edge projects 
-          in <span className="font-bold">medical AI</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
+          in <span className="font-bold">AI applications</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
-          <p className="indent-8">As a <span className="font-bold">Business Development Director</span> at Global Leadership Organization and former <span className="font-bold">Academic Director</span> at 
-          Google Development Student Club, my self-position mission is that <span className="font-bold">I hope bridge the gap between technology and business solutions</span>.
-          Apart from academic, I also aim to achieve service as a lifestyle in everyday life.</p>
+          <p className="indent-8">As having served as <span className="font-bold">Business Development Director</span> at Global Leadership Organization and 
+          <span className="font-bold">Academic Director</span> at Google Development Student Club, my self-position mission is that <span className="font-bold">
+          I hope bridge the gap between technology and business solutions</span>. Apart from academic, I also aim to achieve service as a lifestyle in everyday life.</p>
         </div>
         </div>
         
@@ -115,7 +115,7 @@ export default function ProfileSection() {
                         <p className="font-medium">‣ Chinese: Native Language</p>
                     </div>
                     <div>
-                        <p className="font-medium">‣ English: Proficient; 📝 IELTS 8/9</p>
+                        <p className="font-medium">‣ English: Proficient; 📝 IELTS 8/9, 📝 GRE 329/340</p>
                         {/*<p className="font-normal text-gray-600">📝 IELTS 8/9</p> {/*TOEFL 106, GEPT high-intermediate level*/}
                     </div>
                     <div>

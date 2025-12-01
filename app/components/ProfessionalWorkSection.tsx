@@ -32,7 +32,7 @@ const defaultExperiences: ProfessionalExperience[] = [
         responsibilities: [
             ""
         ],
-        tags: [""],
+        tags: ["iOS", "Automation", "Customer Solutions", "Advertisement Technology"],
         link: "https://www.appier.com/en/about",
     },
     {
