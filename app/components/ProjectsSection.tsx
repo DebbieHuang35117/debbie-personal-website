@@ -52,7 +52,6 @@ export default function ProjectsSection() {
       period: "Apr. 2024 - Jun. 2024",
       description: "A mobile application designed to streamline the photo and video sharing process, enabling users to share life's moments instantly with closed ones.",
       slug: "camera-connect",
-      has_slug_page: true,
       link: "https://drive.google.com/file/d/1GCuYVclHA6T3XyAXSY64czR8EKlrlZck/view",
       //slug_not_done: true,
       //github: "https://github.com/YouMingYeh/camera-connect",
@@ -115,7 +114,7 @@ export default function ProjectsSection() {
                 </h3>
                   {project.link ? (
                       <a href={project.link} target="_blank" rel="noopener noreferrer" style={linkStyle}>
-                          Project Link
+                          Introduction Page
                       </a>
                   ) : null}
                   {project.has_slug_page ? (
