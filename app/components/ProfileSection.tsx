@@ -30,8 +30,8 @@ export default function ProfileSection() {
           combining technical expertise with leadership experience. Currently involved in cutting-edge projects 
           in <span className="font-bold">AI applications</span> and <span className="font-bold">manufacturing optimization</span>.<br /> <br />
 
-          <p className="indent-8">As having served as <span className="font-bold">Business Development Director</span> at Global Leadership Organization and 
-          <span className="font-bold">Academic Director</span> at Google Development Student Club, my self-position mission is that <span className="font-bold">
+          <p className="indent-8">As having served as <span className="font-bold">Business Development Director</span> at Global Leadership Organization and
+          <span className="font-bold"> Academic Director</span> at Google Development Student Club, my self-position mission is that <span className="font-bold">
           I hope bridge the gap between technology and business solutions</span>. Apart from academic, I also aim to achieve service as a lifestyle in everyday life.</p>
         </div>
         </div>
