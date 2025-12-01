@@ -53,7 +53,6 @@ export default function ProjectsSection() {
       description: "A mobile application designed to streamline the photo and video sharing process, enabling users to share life's moments instantly with closed ones.",
       slug: "camera-connect",
       link: "https://drive.google.com/file/d/1GCuYVclHA6T3XyAXSY64czR8EKlrlZck/view",
-      has_slug_page: true,
       //slug_not_done: true,
       //github: "https://github.com/YouMingYeh/camera-connect",
       tags: ["Mobile App", "React Native", "Next.js", "Supabase", "Expo"]
