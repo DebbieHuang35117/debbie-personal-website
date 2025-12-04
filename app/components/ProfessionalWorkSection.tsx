@@ -74,7 +74,7 @@ const defaultExperiences: ProfessionalExperience[] = [
             `,
         ],
         tags: ["Python", "Pytorch", "Large Language Models", "RAG", "RLHF"],
-        link: "https://taide.tw/index",
+        link: "https://www.citi.sinica.edu.tw/main",
     },
 ];
 
@@ -114,7 +114,7 @@ export default function ProfessionalWorkSection({
                                     rel="noopener noreferrer" 
                                     className="text-sm text-blue-600 hover:text-blue-800 no-underline whitespace-nowrap"
                                 >
-                                    Visit
+                                    Official Website
                                 </a>
                             ) : null}
                         </header>
