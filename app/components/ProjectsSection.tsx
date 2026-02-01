@@ -14,6 +14,14 @@ export default function ProjectsSection() {
       tags: ["AI", "Quantitative Finance", "Machine Learning"]
     },*/
     { // move to work experience section
+      title: "Helmo @ IEEE World Haptics Conference 2025",
+      period: "Jul. 2025",
+      description: "Helmo, a wearable vibrotactile warning system embedded in scooter helmets. By delivering directional haptic feedback, Helmo alerts riders to approaching vehicles in their blind spots, enhancing safety without introducing additional visual or auditory distractions.",
+      slug: "helmo-vibrotactile-system",
+      link: "https://www.dropbox.com/scl/fi/ttof0o7rfahz4up8niqdj/helmo.pdf?rlkey=wd4gvxkt5lq57mprlvv45k4fh&st=gjyn8quw&dl=0",
+      tags: ["Haptics", "Safety Technology", "Wearable Devices"]
+    },
+    { // move to work experience section
       title: "Research Assistant @ NTU FinDA Lab",
       period: "Mar. 2025 - Aug. 2025",
       description: "Conducting research on the application of AI and machine learning in financial data analysis. Assisting in the development of algorithms for market prediction and risk assessment.",
