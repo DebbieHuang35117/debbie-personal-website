@@ -7,8 +7,14 @@ const ActivitiesSection = () => {
       organization: "Global Leadership Organization",
       positions: [
         {
+          title: "Marketing Strategy Advisor",
+          duration: "Feb. 2026 - Present",
+          description: "Serve as a marketing strategy advisor, providing insights and recommendations to enhance the organization's outreach and engagement efforts for director and the team.",
+          tags: ["Coaching Strategy", "Active Listening", "Marketing Strategy"]
+        }, 
+        {
           title: "Mentor, Student Ambassador Program",
-          duration: "Sep. 2025 - Present",
+          duration: "Sep. 2025 - Jan. 2026",
           description: "Serve as a mentor for the Student Ambassador Program, providing guidance and support to student leaders in their personal and professional development.",
           tags: ["Self Development", "Coaching Strategy", "Mentorship"]
         }, 
