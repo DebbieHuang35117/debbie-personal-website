@@ -22,13 +22,13 @@ type Props = {
 const defaultExperiences: ProfessionalExperience[] = [
     {
         id: "3",
-        role: "Upcoming Technical Solution Engineer Intern",
+        role: "Technical Solution Engineer Intern",
         company: "Appier",
         startDate: "Dec. 2025",
         endDate: "Present",
         location: "Taipei, Taiwan",
         summary:
-            "Optimizing Advertisement Automation for News Pushing on Clients' Application",
+            "Technical problem solving for our products. Optimizing internal use agent for database retrieval.",
         responsibilities: [
             ""
         ],

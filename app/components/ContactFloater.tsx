@@ -1,9 +1,8 @@
-// app/components/FunFacts.tsx
+// app/components/ContactFloater.tsx
 'use client'
 import Image from 'next/image';
 import { useState } from "react";
 import { Copy } from "lucide-react";
-
 
 export default function ContactFloater() {
     const facts = [
@@ -54,7 +53,7 @@ export default function ContactFloater() {
     };
   
     return (
-      <div className="fixed right-16 bottom-[240px] max-w-xs z-50">
+      <div className="hidden md:block fixed right-16 bottom-[240px] max-w-xs z-50">
         <div className="font-sans text-sm border border-gray-200 dark:border-gray-700 bg-gray-25 dark:bg-gray-800 rounded-lg p-6 w-[320px] transition-all duration-300 hover:shadow-lg hover:border-gray-300 dark:hover:border-gray-600">
         <h2 className='text-lg font-bold'>Let's connect!</h2>
         {facts.map((item, index) => (
